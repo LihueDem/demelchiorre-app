@@ -1,0 +1,74 @@
+/* 
+
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+   
+}
+
+.header-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin-top: 10px;
+} */
+
+
+header {
+  background-color: #333; /* Cambié el color de fondo a un tono oscuro para un mejor contraste con el texto */
+  padding: 10px 20px; /* Ajusté el espaciado para un aspecto más equilibrado */
+}
+
+.header-ul {
+  display: flex;
+  justify-content: space-between; /* Cambié a space-between para distribuir los elementos uniformemente */
+  align-items: center; /* Centré verticalmente los elementos */
+  list-style: none;
+  padding: 0;
+}
+
+.header-ul li {
+  margin: 0 10px; /* Añadí un pequeño margen entre los elementos de la lista */
+}
+
+.header-ul a {
+  text-decoration: none;
+  color: #fff; /* Cambié el color del texto a blanco para un mejor contraste */
+  font-size: 16px; /* Ajusté el tamaño de la fuente para mejorar la legibilidad */
+}
+
+.header-ul a:hover {
+  border-bottom: 2px solid #fff; /* Añadí un subrayado al pasar el ratón por encima */
+}
+
+
+
+.link {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px; /* He ajustado el tamaño de la fuente para que sea más equilibrado */
+  color: #fff; /* Cambié el color del texto a blanco para mejorar la legibilidad */
+  background-color: #007bff; /* Cambié el color de fondo a un tono más vibrante */
+  border: none; /* Eliminé el borde para un aspecto más limpio */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+  transition: background-color 0.3s ease; /* Agregué una transición suave al cambio de color de fondo */
+  cursor: pointer;
+}
+
+.link:hover {
+  background-color: #0056b3; /* Cambié el color de fondo al pasar el ratón por encima */
+}
+
+
+/* .link {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #000;
+  cursor: pointer;
+  background-color: #bef05a;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+} */

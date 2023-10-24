@@ -1,0 +1,77 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(133, 170, 239); }*/
+
+/*
+.App {
+  height: 75vh;
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora {
+  width: 400px;
+  height: 510px;
+  padding: 14px;
+  background-color: cornflowerblue;
+  border-radius: 5px;
+}
+
+.calculadora-fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+* {
+  box-sizing: border-box; /* Añadí esta regla para que los elementos se calculen con el tamaño del borde incluido */
+}
+
+body {
+  margin: 0;
+  font-family: Lato, sans-serif;
+}
+
+.App {
+  height: 75vh; /* Cambié la altura a 100vh para ocupar toda la altura de la pantalla */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculadora {
+  width: 300px; /* Reduje el ancho de la calculadora */
+  max-width: 100%; /* Evita que la calculadora sobrepase el ancho de la pantalla */
+  height: auto;
+  padding: 20px; /* Aumenté el espacio interior para mejorar la legibilidad */
+  background-color: cornflowerblue;
+  border-radius: 10px; /* Aumenté el radio del borde para un aspecto más suave */
+  box-shadow: 0 0 10px rgba(0,0,0,.1); /* Añadí una ligera sombra para darle profundidad */
+}
+
+.calculadora-fila {
+  margin: 8px 0; /* Ajusté el margen vertical */
+  display: flex;
+  justify-content: center;
+}
+
+.calculadora-btn {
+  padding: 10px 20px; /* Ajusté el espaciado del botón */
+  margin: 0 4px; /* Añadí un pequeño margen entre los botones */
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fff;
+  color: cornflowerblue;
+  transition: background-color 0.3s; /* Añadí una transición suave al cambiar el color de fondo */
+}
+
+.calculadora-btn:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* Añadí una transparencia al pasar el ratón por encima del botón */
+}

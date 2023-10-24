@@ -1,0 +1,19 @@
+
+.iconos-ul-li{
+    list-style-type: none;
+}
+
+.iconoCarrito {
+    width: 36px;
+    position: absolute;
+    right: 24px;
+    top: 5px;
+  }
+  
+  .iconoVolver {
+    width: 20px;
+    position: absolute;
+    float: left;
+    left: 20px;
+    top: 5px;
+  }
